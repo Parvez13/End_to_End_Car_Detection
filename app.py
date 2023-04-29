@@ -1,3 +1,6 @@
-from cardetection.logger import logging
+from cardetection.pipeline.training_pipeline import TrainPipeline
 
-logging.info("Welcome to first log")
+train_pipeline = TrainPipeline()
+train_pipeline.run_pipeline()
+print("Training pipeline finished!!")
+
