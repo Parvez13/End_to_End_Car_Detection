@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/OBJECT_DETECTION/CarDetection/data/train/images
+val: /content/drive/MyDrive/OBJECT_DETECTION/CarDetection/data/test/images
+
+nc: 2
+names: ['car', 'Trafficlight']
