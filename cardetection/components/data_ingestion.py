@@ -71,4 +71,4 @@ class DataIngestion:
             return data_ingestion_artifact
 
         except Exception as e:
-            raise CarException(e, sys)      
+            raise CarException(e, sys)
