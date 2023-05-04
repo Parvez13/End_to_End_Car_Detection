@@ -10,7 +10,7 @@ DATA_INGESTION_DIR_NAME: str = "data_ingestion"
 
 DATA_INGESTION_FEATURE_STORE_DIR: str = "feature_store"
 
-DATA_DOWNLOAD_URL: str = "https://github.com/Parvez13/End_to_End_Car_Detection/blob/main/cardata.zip"
+DATA_DOWNLOAD_URL: str = "https://github.com/entbappy/Branching-tutorial/raw/master/Sign_language_data.zip"
 
 """
 Data Validation realted contant start with DATA_VALIDATION VAR NAME

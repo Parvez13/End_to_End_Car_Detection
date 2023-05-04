@@ -1,0 +1,16 @@
+[2023-05-03 20:17:05,287 ] 23 root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[2023-05-03 20:17:05,288 ] 25 root - INFO - Getting the data from URL
+[2023-05-03 20:17:05,288 ] 59 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[2023-05-03 20:17:05,301 ] 27 root - INFO - Downloading data from https://github.com/Parvez13/End_to_End_Car_Detection/raw/main/cardata.zip into file artifacts\05_03_2023_20_17_04\data_ingestion\cardata.zip
+[2023-05-03 20:17:10,269 ] 29 root - INFO - Downloaded data from https://github.com/Parvez13/End_to_End_Car_Detection/raw/main/cardata.zip into file artifacts\05_03_2023_20_17_04\data_ingestion\cardata.zip
+[2023-05-03 20:17:12,008 ] 49 root - INFO - Extracting zip file: artifacts\05_03_2023_20_17_04\data_ingestion\cardata.zip into dir: artifacts\05_03_2023_20_17_04\data_ingestion\feature_store\cardata
+[2023-05-03 20:17:12,008 ] 69 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[2023-05-03 20:17:12,009 ] 70 root - INFO - Data ingestion artifact: DataIngestionArtifact(data_zip_file_path='artifacts\\05_03_2023_20_17_04\\data_ingestion\\cardata.zip', feature_store_path='artifacts\\05_03_2023_20_17_04\\data_ingestion\\feature_store\\cardata')
+[2023-05-03 20:17:12,009 ] 32 root - INFO - Got the data from URL
+[2023-05-03 20:17:12,009 ] 34 root - INFO - Exited the start_data_ingestion method of TrainPipeline class
+[2023-05-03 20:17:12,009 ] 43 root - INFO - Entered the start_data_validation method of TrainPipeline class
+[2023-05-03 20:17:12,010 ] 51 root - INFO - Entered initiate_data_validation method of DataValidation class
+[2023-05-03 20:17:12,014 ] 57 root - INFO - Exited initiate_data_validation method of DataValidation class
+[2023-05-03 20:17:12,015 ] 58 root - INFO - Data validation artifact: DataValidationArtifact(validation_status=False)
+[2023-05-03 20:17:12,015 ] 53 root - INFO - Performed the data validation operation
+[2023-05-03 20:17:12,015 ] 56 root - INFO - Exited the start_data_validation method of TrainPipeline class

@@ -1,0 +1,16 @@
+[2023-05-03 10:16:29,644 ] 23 root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[2023-05-03 10:16:29,644 ] 25 root - INFO - Getting the data from URL
+[2023-05-03 10:16:29,645 ] 59 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[2023-05-03 10:16:29,646 ] 27 root - INFO - Downloading data from https://github.com/Parvez13/End_to_End_Car_Detection/raw/main/cardata.zip into file artifacts\05_03_2023_10_16_29\data_ingestion\cardata.zip
+[2023-05-03 10:16:32,397 ] 29 root - INFO - Downloaded data from https://github.com/Parvez13/End_to_End_Car_Detection/raw/main/cardata.zip into file artifacts\05_03_2023_10_16_29\data_ingestion\cardata.zip
+[2023-05-03 10:16:32,694 ] 49 root - INFO - Extracting zip file: artifacts\05_03_2023_10_16_29\data_ingestion\cardata.zip into dir: artifacts\05_03_2023_10_16_29\data_ingestion\feature_store
+[2023-05-03 10:16:32,695 ] 69 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[2023-05-03 10:16:32,695 ] 70 root - INFO - Data ingestion artifact: DataIngestionArtifact(data_zip_file_path='artifacts\\05_03_2023_10_16_29\\data_ingestion\\cardata.zip', feature_store_path='artifacts\\05_03_2023_10_16_29\\data_ingestion\\feature_store')
+[2023-05-03 10:16:32,695 ] 32 root - INFO - Got the data from URL
+[2023-05-03 10:16:32,695 ] 34 root - INFO - Exited the start_data_ingestion method of TrainPipeline class
+[2023-05-03 10:16:32,695 ] 43 root - INFO - Entered the start_data_validation method of TrainPipeline class
+[2023-05-03 10:16:32,695 ] 51 root - INFO - Entered initiate_data_validation method of DataValidation class
+[2023-05-03 10:16:32,697 ] 57 root - INFO - Exited initiate_data_validation method of DataValidation class
+[2023-05-03 10:16:32,697 ] 58 root - INFO - Data validation artifact: DataValidationArtifact(validation_status=False)
+[2023-05-03 10:16:32,697 ] 53 root - INFO - Performed the data validation operation
+[2023-05-03 10:16:32,697 ] 56 root - INFO - Exited the start_data_validation method of TrainPipeline class
