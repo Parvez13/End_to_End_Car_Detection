@@ -1,0 +1,4 @@
+[2023-05-05 08:40:22,597 ] 23 root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[2023-05-05 08:40:22,597 ] 25 root - INFO - Getting the data from URL
+[2023-05-05 08:40:22,597 ] 59 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[2023-05-05 08:40:22,598 ] 27 root - INFO - Downloading data from https://github.com/Parvez13/End_to_End_Car_Detection/raw/main/data_drive.zip into file artifacts\05_05_2023_08_40_22\data_ingestion\data_drive.zip
