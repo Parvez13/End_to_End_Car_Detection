@@ -1,0 +1,18 @@
+[2023-05-05 08:32:08,764 ] 23 root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[2023-05-05 08:32:08,764 ] 25 root - INFO - Getting the data from URL
+[2023-05-05 08:32:08,764 ] 59 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[2023-05-05 08:32:08,765 ] 27 root - INFO - Downloading data from https://github.com/Parvez13/End_to_End_Car_Detection/raw/main/data_drive.zip into file artifacts\05_05_2023_08_32_08\data_ingestion\data_drive.zip
+[2023-05-05 08:32:11,524 ] 29 root - INFO - Downloaded data from https://github.com/Parvez13/End_to_End_Car_Detection/raw/main/data_drive.zip into file artifacts\05_05_2023_08_32_08\data_ingestion\data_drive.zip
+[2023-05-05 08:32:11,779 ] 49 root - INFO - Extracting zip file: artifacts\05_05_2023_08_32_08\data_ingestion\data_drive.zip into dir: artifacts\05_05_2023_08_32_08\data_ingestion\feature_store
+[2023-05-05 08:32:11,779 ] 69 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[2023-05-05 08:32:11,779 ] 70 root - INFO - Data ingestion artifact: DataIngestionArtifact(data_zip_file_path='artifacts\\05_05_2023_08_32_08\\data_ingestion\\data_drive.zip', feature_store_path='artifacts\\05_05_2023_08_32_08\\data_ingestion\\feature_store')
+[2023-05-05 08:32:11,779 ] 32 root - INFO - Got the data from URL
+[2023-05-05 08:32:11,779 ] 34 root - INFO - Exited the start_data_ingestion method of TrainPipeline class
+[2023-05-05 08:32:11,779 ] 43 root - INFO - Entered the start_data_validation method of TrainPipeline class
+[2023-05-05 08:32:11,779 ] 51 root - INFO - Entered initiate_data_validation method of DataValidation class
+[2023-05-05 08:32:11,782 ] 57 root - INFO - Exited initiate_data_validation method of DataValidation class
+[2023-05-05 08:32:11,783 ] 58 root - INFO - Data validation artifact: DataValidationArtifact(validation_status=True)
+[2023-05-05 08:32:11,802 ] 53 root - INFO - Performed the data validation operation
+[2023-05-05 08:32:11,802 ] 56 root - INFO - Exited the start_data_validation method of TrainPipeline class
+[2023-05-05 08:32:11,803 ] 20 root - INFO - Entered initiate_model_trainer method of ModelTrainer class
+[2023-05-05 08:32:11,803 ] 23 root - INFO - Unzipping data

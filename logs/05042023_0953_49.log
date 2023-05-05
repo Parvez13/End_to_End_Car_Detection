@@ -1,5 +1,0 @@
-[2023-05-04 09:53:49,055 ] 23 root - INFO - Entered the start_data_ingestion method of TrainPipeline class
-[2023-05-04 09:53:49,055 ] 25 root - INFO - Getting the data from URL
-[2023-05-04 09:53:49,055 ] 59 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
-[2023-05-04 09:53:49,056 ] 27 root - INFO - Downloading data from https://github.com/Lokeshrajkp/car_detection_yplov5/blob/main/data.zip into file artifacts\05_04_2023_09_53_49\data_ingestion\data.zip
-[2023-05-04 09:53:49,769 ] 29 root - INFO - Downloaded data from https://github.com/Lokeshrajkp/car_detection_yplov5/blob/main/data.zip into file artifacts\05_04_2023_09_53_49\data_ingestion\data.zip
