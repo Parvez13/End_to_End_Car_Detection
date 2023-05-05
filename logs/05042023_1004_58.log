@@ -1,0 +1,5 @@
+[2023-05-04 10:04:58,360 ] 23 root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[2023-05-04 10:04:58,360 ] 25 root - INFO - Getting the data from URL
+[2023-05-04 10:04:58,361 ] 59 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[2023-05-04 10:04:58,361 ] 27 root - INFO - Downloading data from https://github.com/entbappy/Branching-tutorial/blob/master/Sign_language_data.zip into file artifacts\05_04_2023_10_04_58\data_ingestion\Sign_language_data.zip
+[2023-05-04 10:04:59,432 ] 29 root - INFO - Downloaded data from https://github.com/entbappy/Branching-tutorial/blob/master/Sign_language_data.zip into file artifacts\05_04_2023_10_04_58\data_ingestion\Sign_language_data.zip
